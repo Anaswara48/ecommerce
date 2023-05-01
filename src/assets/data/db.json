@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Maggie cheese macroni instant pazzta",
+      "categoryId": 2,
+      "description": "Add a magical twist to your daily meal with maggie",
+      "price": "250",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/25zcvqJR/maggie.jpg",
+      "rating": 4,
+      "reviews": 50,
+      "manufacturer": "Nestle India Ltd"
+    },
+    {
+      "id": 2,
+      "productName": "ITC Master Chef veggie Pizza Pocket",
+      "categoryId": 2,
+      "description": "A pocket full of fun",
+      "price": "500",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/3xWCHgPw/pizza.webp",
+      "rating": 3,
+      "reviews": 510,
+      "manufacturer": "ITC Ltd"
+    },
+    {
+      "id": 3,
+      "productName": "Honey Almond and Chocolate Cookies ",
+      "categoryId": 2,
+      "description": "Honey roasted almond cookies dipped in chocolate",
+      "price": "373",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/nc6shcgL/honey-almond.jpg",
+      "rating": 3.5,
+      "reviews": 50,
+      "manufacturer": "Baklava box"
+    },
+    {
+      "id": 4,
+      "productName": "Avacados Hass Tanzania Premium  ",
+      "categoryId": 3,
+      "description": "Enjoy daily as a spread on toast,or make dip for your nachos or tacos",
+      "price": "1099",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/RhkvvRRV/avacado.jpg",
+      "rating": 4.5,
+      "reviews": 510,
+      "manufacturer": "Private ltd"
+    },
+    {
+      "id": 6,
+      "productName": "urban ladder palermo sofa cum bed ",
+      "categoryId": 1,
+      "description": "Comfy feeling",
+      "price": "22490",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/FFSSLsf8/Designer-Sofa-Set-in-Fabric-L-Shape-2.webp",
+      "rating": 4.5,
+      "reviews": 560,
+      "manufacturer": "Vistatech Furniture co.ltd"
+    },
+    {
+      "id": 7,
+      "productName": "Decorvilla light solid faux silk blackout long door curtains",
+      "categoryId": 1,
+      "description": "The curtain block almost all the sunlight from entering protecting you and your family from the harsh uv rays",
+      "price": "2499",
+      "is_available": true,
+      "productImg": "https://i.postimg.cc/yYcYjDs4/curtains.jpg",
+      "rating": 5,
+      "reviews": 60,
+      "manufacturer": "Decorvilla"
+    },
+    {
+      "id": "5",
+      "productName": "Towels",
+      "categoryId": "1",
+      "description": "",
+      "price": "300",
+      "is_available": "true",
+      "productImg": "https://i.postimg.cc/W3tXnMt3/towels.jpg",
+      "rating": "",
+      "reviews": "333",
+      "manufacturer": "kkl"
+    }
+  ]
+}

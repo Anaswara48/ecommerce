@@ -1,0 +1,198 @@
+angular
+-------------
+installing command
+-----------------------
+npm i -g @angular/cli@latest
+
+angularversion
+--------------
+ng v
+
+project creation
+------------------
+ng new projectname
+
+running command
+-----------------------
+ng serve --open 
+
+technologies used in angular
+-------------------------------
+1 html
+2 css
+3 typescript -superscript of js
+strictly typed language
+browser convert typescript to js while running is called transpiling
+                                                         -------------
+clone after push into git- npm 
+------------------------------------------------------------------
+
+manage third party libraries - package.json
+node module - store a copy of package and modules
+asset - store media files eg.img,vedio,audio files etc
+------------------------------------------------------------------
+
+root module
+   root component - parent
+   we can create sub component inside the root module
+   can create sub modules
+   inside sub modules components are present
+--------------------------------------------------------------------
+
+module-one ts file manage components under this file
+component- consider as a page -ts html css
+   selector- used to display the component
+---------------------------------------------------------------------
+
+@ - decorators
+decorators used to store meta data-(wrapped data)
+-------------------------------------------------------
+
+create new component
+ng generate component component name
+ng g c first
+--------------------------------------------------------------
+
+in index.js only works root component
+we can call other sub component in root component
+
+working cycle of angular component
+-----------------------------------------------------------------
+constructor-->ngOnInt--->othermethods
+
+Data Binding in angular
+--------------------------
+ts -component
+html -view
+
+1. One way Binding
+--------------------
+1.1 ts to html(component to view data sharing)
+    1.1.1 method  - string interpollation    {{}}  for string
+    1.1.2           property Binding                 [property_name]="data"  for value
+
+
+    1.2 view to component(html to ts)
+    ---------------------------------
+    1.2.1 Event Binding                                 (eventname)="method()"
+    1.2.2 $Event Binding                                (eventname)="method($event)"
+    1.2.3 event binding with template rendering variable    #variableName
+    -----------------------------------------------------------------------
+
+2. Two way Binding
+----------------------
+2.1 ngModel                   [(ngModel)]="variable"
+    external module used to apply ngModel is formsModule
+                                             -----------
+                                             
+path setting in angular
+-------------------------
+path set in root module routing file
+each page need different paths
+landing page path is empty ""
+
+Redirecting in angular
+------------------------------
+method- navigateByUrl(path)
+navigate navigateByUrl present in router class
+class - Router
+module - AppRoutingModule
+
+folder - file - class - method
+package  module
+inbuild datas are in a file that files are called module
+the file will present in the folder that folder is called package
+
+Dependency Injection
+-----------------------
+to use a method of class in another class
+ in constructor we do this 
+
+           accessSpecifier reference:ClassName
+
+ first access specifier- private/public
+ private-it can access the specifier on the specified injecting class only
+ public - specifier access can done on the class in the conained other class file
+
+ Angular sevices
+ ---------------------
+its a file in angular
+all components can access the content of service file
+create   -  ng g s filename
+
+
+Angular Directives
+-------------------------
+used to manipulate DOM(changes in dom)
+refer note
+
+Api creation in angular
+--------------------------------
+httpClientModule -module use
+HttpClient-    class
+
+method
+-------------
+get post put patch delete
+
+asynchronous in js                    asynchronous in ts               library -rxjs
+-------------------                   ------------------------
+promise  -then()                       observable  -resolve - subscribe()
+         -catch()                                  -reject  - catch()
+
+ Headers creation in Angular
+ ------------------------------
+ HttpHeaders - class used to generate header   
+
+
+
+ Lazy-Loading
+ ------------------
+ technology used to create lazy loaded module for faster loading of high traffic pages
+
+ng g module moduleName --route moduleName --module app.module
+
+     all product view
+     single product  view
+     edit product
+     delete product
+     add new product     
+
+groceries -2
+premium fruits-3
+home and kitchen-1
+
+
+     Json
+     ------------
+     to run json files  - npm i --save json-server
+
+     npx  json-server --watch filename --port 3000
+
+access params from url
+----------------------------
+ActivatedRoute - class used to access params
+params - method used to access params
+
+
+Pipe creation
+-------------------
+to transform data
+ng g pipe pipeName
+
+transform(value,filterString,propName)
+value = pipe applied data
+filterString = keyword used to filter data
+propName = filter applying property in data
+
+
+Data sharing from module to module
+-----------------------------------------
+
+Behaviour subjects -rxjs
+reactive extension for js
+
+1. import Behavioursubject
+2. create an object of Behavioursubject
+3. send the data using next method
+

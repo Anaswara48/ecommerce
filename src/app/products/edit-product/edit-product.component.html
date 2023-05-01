@@ -1,0 +1,16 @@
+<div class="p-5 container w-50 text-center">
+    <h1>Edit Product</h1>
+    <form (ngSubmit)="updateProduct(updateProductForm)"  action="" class="container p-5 border bg-light" #updateProductForm="ngForm">
+        <input  [(ngModel)]="pdata.id"           type="text"  class="form-control mt-3 p-2"  name="pin"  id="pid">
+        <input  [(ngModel)]="pdata.productName"  type="text"  class="form-control mt-3 p-2"  name="pn"   id="pd">
+        <input  [(ngModel)]="pdata.categoryId"   type="text"  class="form-control mt-3 p-2"  name="pin1" id="pid9">
+        <input  [(ngModel)]="pdata.description"  type="text"  class="form-control mt-3 p-2"  name="pin2" id="pid8">
+        <input  [(ngModel)]="pdata.price"        type="text"  class="form-control mt-3 p-2"  name="pin3" id="pid7">
+        <input  [(ngModel)]="pdata.is_available" type="text"  class="form-control mt-3 p-2"  name="pin4" id="pid6">
+        <input  [(ngModel)]="pdata.productImg"   type="text"  class="form-control mt-3 p-2"  name="pin5" id="pid5">
+        <input  [(ngModel)]="pdata.rating"       type="text"  class="form-control mt-3 p-2"  name="pin6" id="pid4">
+        <input  [(ngModel)]="pdata.reviews"      type="text"  class="form-control mt-3 p-2"  name="pin7" id="pid3">
+        <input  [(ngModel)]="pdata.manufacturer" type="text"  class="form-control mt-3 p-2"  name="pin8" id="pid2">
+        <button type="submit" class=" p-2 mt-3 " style="color: rgb(3, 90, 3);">Update</button>
+    </form>
+</div>

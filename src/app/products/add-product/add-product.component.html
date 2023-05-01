@@ -1,0 +1,16 @@
+<div class="p-5 container w-50 text-center">
+<h1>Add New Product</h1>
+<form (ngSubmit)="addProduct()" [formGroup]="addProductForm" action="" class="container p-5 border bg-light">
+    <input formControlName="id" type="text" class="form-control mt-3 p-2" placeholder="id"name="pin" id="pid">
+    <input formControlName="productName" type="text" class="form-control mt-3 p-2" placeholder="Name"name="pn" id="pd">
+    <input formControlName="categoryId" type="text" class="form-control mt-3 p-2" placeholder="Category Id"name="pin1" id="pid9">
+    <input formControlName=" description" type="text" class="form-control mt-3 p-2" placeholder="description"name="pin1" id="pid9">
+    <input formControlName="price" type="text" class="form-control mt-3 p-2" placeholder="Price"name="pin2" id="pid8">
+    <input formControlName="is_available" type="text" class="form-control mt-3 p-2" placeholder="Is Available Trur/False"name="pin3" id="pid7">
+    <input formControlName="productImg" type="text" class="form-control mt-3 p-2" placeholder="Image url"name="pin4" id="pid6">
+    <input formControlName=" rating" type="text" class="form-control mt-3 p-2" placeholder="Rating"name="pin5" id="pid5">
+    <input formControlName="reviews" type="text" class="form-control mt-3 p-2" placeholder="Review"name="pin6" id="pid4">
+    <input formControlName="manufacturer" type="text" class="form-control mt-3 p-2" placeholder="Manufacturer"name="pin7" id="pid3">
+<button class=" p-2 mt-3 " style="color: rgb(6, 211, 6);">Add</button>
+</form>
+</div>
